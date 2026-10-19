@@ -12,7 +12,7 @@
 
 ## About Me
 
-I'm a computer engineering student who enjoys building things, from low-level systems to polished, user-facing applications. I've worked on projects across software engineering, machine learning, computer vision, web development, and robotics; I'm also interested in embedded systems and firmware but interested in learning anything really. 
+I'm a computer engineering student who enjoys building things, from low-level systems to polished, user-facing applications. I've worked on projects across software, machine learning, computer vision, web development, and robotics; I'm also interested in embedded systems and firmware but interested in learning anything really. 
 
 I pick up new tools quickly and am happy to work on whatever problem needs solving.
 
