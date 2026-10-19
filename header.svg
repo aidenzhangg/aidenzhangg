@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="140" viewBox="0 0 800 140">
+  <style>
+    text {
+      font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+      text-anchor: middle;
+      opacity: 0;
+      animation: fade 1.2s ease-out forwards;
+    }
+    .name { font-size: 44px; font-weight: 700; fill: #1f2328; }
+    .line { font-size: 18px; fill: #59636e; }
+    .line tspan { font-weight: 600; fill: #1f2328; }
+    .l1 { animation-delay: 0.6s; }
+    .l2 { animation-delay: 1.2s; }
+
+    @keyframes fade {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Match GitHub dark mode */
+    @media (prefers-color-scheme: dark) {
+      .name, .line tspan { fill: #f0f6fc; }
+      .line { fill: #9198a1; }
+    }
+
+    /* Respect reduced-motion settings */
+    @media (prefers-reduced-motion: reduce) {
+      text { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <text class="name" x="400" y="58">Aiden Zhang</text>
+  <text class="line l1" x="400" y="95">Computer Engineering student at the <tspan>University of Waterloo</tspan></text>
+  <text class="line l2" x="400" y="122">Seeking <tspan>Summer 2027</tspan> co-op opportunities</text>
+</svg>
