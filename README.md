@@ -21,7 +21,7 @@ I pick up new tools quickly and am happy to work on whatever problem needs solvi
 ## Design Teams
 
 - **Waterloo Aerial Robotics Group (WARG)**: Autonomy Software Developer
-- **WATonomous**: Software Developer, Perception
+- **WATonomous**: Eve Perception Software Developer
 
 ---
 
