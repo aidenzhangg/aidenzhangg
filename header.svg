@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="140" viewBox="0 0 800 140">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="115" viewBox="0 0 800 115">
   <style>
     text {
       font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -10,7 +10,6 @@
     .line { font-size: 18px; fill: #59636e; }
     .line tspan { font-weight: 600; fill: #1f2328; }
     .l1 { animation-delay: 0.6s; }
-    .l2 { animation-delay: 1.2s; }
 
     @keyframes fade {
       from { opacity: 0; transform: translateY(8px); }
