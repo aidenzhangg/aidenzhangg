@@ -60,7 +60,7 @@ I pick up new tools quickly and am happy to work on whatever problem needs solvi
 ---
 
 <p align="center">
-  Available for <b>Summer 2027</b> co-op. Feel free to contact me at
+  Seeking <b>Summer 2027</b> co-op opportunities. Feel free to contact me at
   <a href="mailto:a522zhan@uwaterloo.ca"><ins>a522zhan@uwaterloo.ca</ins></a>
   
 </p>
