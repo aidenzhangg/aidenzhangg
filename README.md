@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg" alt="Aiden Zhang, Computer Engineering student at the University of Waterloo, seeking Summer 2027 co-op opportunities" />
+  <img src="header.svg" alt="Aiden Zhang, Computer Engineering student at the University of Waterloo" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ## About Me
 
-I'm a computer engineering student who enjoys building things, from low-level systems to polished, user-facing applications. I've worked on projects across software, machine learning, computer vision, web development, and robotics; I'm also interested in embedded systems and firmware but interested in learning anything really. 
+I'm a first-year computer engineering 1A student at the University of Waterloo who enjoys building things, from low-level systems to polished, user-facing applications. I've worked on projects across software, machine learning, computer vision, web development, and robotics; I'm also interested in embedded systems and firmware but interested in learning anything really. 
 
 I pick up new tools quickly and am happy to work on whatever problem needs solving.
 
