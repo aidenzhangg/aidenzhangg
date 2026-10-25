@@ -20,8 +20,8 @@ I pick up new tools quickly and am happy to work on whatever problem needs solvi
 
 ## Design Teams
 
-- **Waterloo Aerial Robotics Group (WARG)**: Autonomy Subteam Software Developer
-- **WATonomous**: Eve Subteam Software Developer - Autonomous Vehicle
+- **Waterloo Aerial Robotics Group (WARG)**: Autonomy Subteam Member
+- **WATonomous**: Eve Subteam Member - Autonomous Vehicle
 
 ---
 
