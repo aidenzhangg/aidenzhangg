@@ -12,9 +12,8 @@
 
 ## About Me
 
-I'm a first-year computer engineering 1A student at the University of Waterloo who enjoys building things, from low-level systems to polished, user-facing applications. I've worked on projects across software, machine learning, computer vision, web development, and robotics; I'm also interested in embedded systems and firmware, or anything really. 
+I'm a first-year computer engineering 1A student at the University of Waterloo who enjoys building things. I've worked on projects across software, machine learning, computer vision, web development, and robotics; I'm also interested in embedded systems and firmware, or anything really. 
 
-I pick up new tools quickly and am happy to work on whatever problem needs solving.
 
 ---
 
@@ -38,7 +37,6 @@ I pick up new tools quickly and am happy to work on whatever problem needs solvi
 ### Frameworks
 ![React](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
