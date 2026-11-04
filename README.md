@@ -85,42 +85,51 @@
 
 ---
 
+
 <h3>02 / Currently Building</h3>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="55%" valign="top">
 
 <h4>
   <a href="https://github.com/aidenzhangg/recall">Recall — AI Study Assistant</a>
 </h4>
 
-<sub>Chrome Extension · Full-Stack · Machine Learning</sub>
+<sub>Java · Spring Boot · React · TypeScript · PostgreSQL · ML</sub>
 
-<p>I'm building Recall to make studying more active and personalized. It's a Chrome extension that turns lecture notes and course material into practice questions, helping students figure out what they actually understand instead of just rereading notes.</p>
+<p>Making a Chrome extension that helps students study smarter by turning their own course material into personalized practice.</p>
 
-<p>So far, I've built a Chrome side panel that generates fill-in-the-blank quizzes from pasted or uploaded notes. It includes optional hints that guide you toward an answer, retries for missed questions, and a Java Spring Boot backend with PostgreSQL to save quizzes and attempts between sessions.</p>
+<ul>
+  <li>Built a Chrome side panel that turns uploaded notes into interactive quizzes, with hints, retries, and saved progress.</li>
+  <li>Training a computer vision model on labelled webcam data to recognize distracted behaviour during study sessions.</li>
+  <li>Working on adaptive quizzes that revisit weak topics and generate new questions based on previous mistakes.</li>
+  <li>Adding flashcards, practice tests based on uploaded past exams, and YouTube recommendations for difficult concepts.</li>
+</ul>
 
-<p>I'm now working on training a computer vision model using labelled webcam data to recognize when someone is focused or distracted while studying. I'm also developing adaptive quizzes that generate more questions around topics you keep getting wrong, flashcards, practice tests based on uploaded past exams, and relevant YouTube recommendations for concepts that need more explanation.</p>
-
-<a href="https://github.com/aidenzhangg/recall">View Repository</a>
+<p><sub>In development · <a href="https://github.com/aidenzhangg/recall">Source code</a></sub></p>
 
 </td>
-<td width="50%" valign="top">
+<td width="45%" valign="top">
 
 <h4>Phone-to-PC Photo Sharing</h4>
 
-<sub>Cross-Device Development · Windows</sub>
+<sub>Windows · Cross-Device Communication</sub>
 
-<p>I'm also developing a way to transfer photos directly from a phone to a Windows laptop without having to email them, connect a cable, or upload them manually to cloud storage.</p>
+<p>Building a faster way to move photos from my phone to my Windows laptop without emailing files or manually uploading them.</p>
 
-<p>The idea came from wanting a faster way to move pictures between devices while working or studying. I'm exploring a workflow where you can take a picture on your phone, tap Share, and have it appear directly on your laptop, ready to use.</p>
+<ul>
+  <li>Working on a workflow that lets me take a picture and send it straight from my phone's Share menu.</li>
+  <li>Exploring direct device communication so photos can transfer without an intermediate cloud upload.</li>
+  <li>Designing the Windows side to receive photos and make them immediately accessible for studying and other tasks.</li>
+</ul>
 
-<p>I'm currently working through the device communication and transfer workflow, with the goal of making the process feel as simple as sharing a photo within the same device.</p>
+<p><sub>In development</sub></p>
 
 </td>
 </tr>
 </table>
+
 
 ---
 
