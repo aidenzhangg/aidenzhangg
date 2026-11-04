@@ -5,7 +5,7 @@
 
 <h3>Hey, I'm Aiden.</h3>
 
-<p>I'm a 1A Computer Engineering student at the University of Waterloo.</p>
+<p>I'm a 1A Computer Engineering student at the University of Waterloo. I like building things that connect software with the physical world, especially robotics, computer vision, and tools people actually use.</p>
 
 <p>
   <a href="mailto:a522zhan@uwaterloo.ca">a522zhan@uwaterloo.ca</a>
