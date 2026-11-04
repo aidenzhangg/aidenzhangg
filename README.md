@@ -9,7 +9,7 @@
 
 <p>
   <a href="mailto:a522zhan@uwaterloo.ca">a522zhan@uwaterloo.ca</a>
-  &nbsp;·&nbsp;
+  &nbsp;·&nbsp;  <a href="aidenzhang.vercel.app">[Personal Website]</a>   &nbsp;·&nbsp;
   Seeking Summer 2027 co-op opportunities
 </p>
 
