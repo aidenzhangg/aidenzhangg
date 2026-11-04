@@ -161,7 +161,6 @@
 <li><b>96%</b> original CNN test accuracy</li>
 </ul>
 
-<p>Ran a five-month pilot with six participants, including a visually impaired participant who used text-to-speech nutritional feedback.</p>
 
 <a href="https://github.com/aidenzhangg/computer-vision-food-health-checker">View Source Code</a>
 
