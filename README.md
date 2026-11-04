@@ -1,75 +1,254 @@
-<p align="center">
-  <img src="header.svg" alt="Aiden Zhang, Computer Engineering student at the University of Waterloo" />
-</p>
 
 <p align="center">
-  <a href="mailto:a522zhan@uwaterloo.ca"><ins>a522zhan@uwaterloo.ca</ins></a>
-  &nbsp;|&nbsp;
-  <a href="https://linkedin.com/in/aiden-zhang000"><ins>LinkedIn</ins></a>
+  <img src="header.svg" alt="Aiden Zhang | Computer Engineering at the University of Waterloo" width="100%" />
+</p>
+
+<h3>Hey, I'm Aiden.</h3>
+
+<p>I'm a 1A Computer Engineering student at the University of Waterloo.</p>
+
+<p>
+  <a href="mailto:a522zhan@uwaterloo.ca">a522zhan@uwaterloo.ca</a>
+  &nbsp;·&nbsp;
+  Seeking Summer 2027 co-op opportunities
 </p>
 
 ---
 
-## About Me
+<h3>01 / Engineering Design Teams</h3>
 
-I'm a first-year computer engineering 1A student at the University of Waterloo who enjoys building things. I've worked on projects across software, machine learning, computer vision, web development, and robotics; I'm also interested in embedded systems and firmware, or anything really. 
+<table>
+<tr>
+<td width="50%" valign="top">
 
+<h4>Waterloo Aerial Robotics Group</h4>
 
----
+<sub><b>WARG · Autonomy Subteam</b></sub>
 
-## Design Teams
+<p>Building software for autonomous drone operations, including behaviour-tree telemetry, emergency flight safety, and multi-agent coordination.</p>
 
-- **Waterloo Aerial Robotics Group (WARG)**: Autonomy Subteam Member
-- **WATonomous**: Eve Subteam Member - Autonomous Vehicle
+<b>Currently working on</b>
 
----
-
-
-## Skills
-
-### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### Frameworks
-![React.js](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-### Libraries
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=ultralytics&logoColor=white)
-
-### Developer Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipseide&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Foxglove](https://img.shields.io/badge/Foxglove-5B4BFF?style=flat-square&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
----
-
-<p align="center">
-  Seeking <b>Summer 2027</b> co-op opportunities. Feel free to contact me at
-  <a href="mailto:a522zhan@uwaterloo.ca"><ins>a522zhan@uwaterloo.ca</ins></a>
-  
+<p>
+  <a href="https://github.com/UWARG/autonomy-monorepo/issues/220"><b>Deconfliction &amp; Separation Assurance #220</b></a>
 </p>
+
+<p>Developing a geometry-based conflict detection module for multiple autonomous drones. The system examines planned flight segments, identifies intersecting trajectories, and reports which drones and segments are involved in potential conflicts.</p>
+
+<b>Previous contributions</b>
+
+<p>
+  <b>Behaviour Tree Telemetry</b>
+  <a href="https://github.com/UWARG/autonomy-monorepo/pull/218">[PR #218]</a>
+</p>
+
+<p>Built a ROS 2 telemetry system that converts active behaviour-tree states into compact MAVLink STATUSTEXT messages. Supports event-driven updates and periodic retransmission so ground operators can monitor drone decisions without LTE connectivity.</p>
+
+<p>
+  <b>Emergency ABORT System</b>
+  <a href="https://github.com/UWARG/autonomy-monorepo/pull/180">[PR #180]</a>
+</p>
+
+<p>Implemented emergency handling in the autonomy behaviour tree, allowing an ABORT command to interrupt the active mission and initiate an immediate landing through MAVROS.</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h4>WATonomous</h4>
+
+<sub><b>EVE Autonomous Vehicle · Perception</b></sub>
+
+<p>Working on autonomous vehicle perception, multi-object tracking, and robotic navigation using ROS 2.</p>
+
+<b>Currently working on</b>
+
+<p>
+  <a href="https://github.com/WATonomous/wato_monorepo/issues/583"><b>PERCEPTION: Tracking Changes #583</b></a>
+</p>
+
+<p>Investigating alternative multi-object tracking algorithms for 3D object detection. Starting by evaluating the existing ByteTrack implementation, analyzing its accuracy, and comparing other tracking approaches for compatibility and performance.</p>
+
+<b>Previous work</b>
+
+<p><b>Autonomous Robot Navigation</b></p>
+
+<p>Developed a four-node C++ and ROS 2 navigation pipeline combining LiDAR mapping, odometry, A* pathfinding, and Pure Pursuit control.</p>
+
+<p><b>Obstacle-Aware Planning</b></p>
+
+<p>Implemented occupancy-grid mapping with obstacle inflation and eight-direction path planning to generate collision-aware routes.</p>
+
+
+</td>
+</tr>
+</table>
+
+---
+
+<h3>02 / Currently Building</h3>
+
+<table>
+<tr>
+<td valign="top">
+
+<h4>
+  <a href="https://github.com/aidenzhangg/recall">Recall — AI Study Assistant</a>
+</h4>
+
+<sub><b>Chrome Extension · Full-Stack Development · Machine Learning</b></sub>
+
+<p>Building an AI-powered study assistant that transforms lecture notes, course material, and past exams into personalized learning experiences. The goal is to help students actively recall information, identify weak areas, and improve how they study.</p>
+
+<b>What I've built</b>
+
+<ul>
+<li><b>Interactive Quizzes:</b> Generates fill-in-the-blank questions from uploaded or pasted notes directly inside a Chrome side panel.</li>
+<li><b>Learning Hints:</b> Provides optional hints that guide students toward an answer rather than immediately revealing it.</li>
+<li><b>Progress Tracking:</b> Saves quizzes, questions, and attempts through a Java 21 Spring Boot API with PostgreSQL persistence.</li>
+<li><b>Question Retries:</b> Allows students to revisit missed questions and reinforce concepts they struggled with.</li>
+</ul>
+
+<b>What I'm developing</b>
+
+<ul>
+<li><b>ML Focus Detection:</b> Training a computer vision model using labelled webcam data to distinguish focused and distracted study behaviour.</li>
+<li><b>Adaptive Question Generation:</b> Identifying frequently missed concepts and generating targeted questions to reinforce understanding.</li>
+<li><b>Flashcards &amp; Practice Exams:</b> Transforming uploaded course material and previous tests into flashcards and similar practice questions.</li>
+<li><b>Resource Recommendations:</b> Finding relevant YouTube explanations based on topics students struggle with.</li>
+</ul>
+
+<a href="https://github.com/aidenzhangg/recall"><b>View Recall Repository</b></a>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<h4>Phone-to-PC Photo Sharing</h4>
+
+<sub><b>Cross-Device Development · Windows Integration</b></sub>
+
+<p>Exploring a lightweight way to transfer photos directly from a phone to a Windows laptop.</p>
+
+<p>The goal is to take a picture, share it from the phone, and have it appear on the computer without manually emailing files, connecting cables, or uploading them to cloud storage.</p>
+
+</td>
+</tr>
+</table>
+
+---
+
+<h3>03 / Selected Projects</h3>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h4>
+  <a href="https://github.com/aidenzhangg/computer-vision-food-health-checker">Food Recognition &amp; Nutritional Analysis</a>
+</h4>
+
+<sub><b>Computer Vision · Deep Learning · YOLO11</b></sub>
+
+<p>A computer vision application that identifies food items in real time and provides nutritional feedback.</p>
+
+<p>Started with a TensorFlow CNN classifier before upgrading to a fine-tuned YOLO11 detection model. Collected and manually labelled training images, trained the model, and integrated it with an OpenCV webcam pipeline.</p>
+
+<p>The final system detects multiple food items simultaneously, displaying bounding boxes, predicted categories, and confidence scores.</p>
+
+<b>Results</b>
+
+<ul>
+<li><b>245</b> manually labelled images</li>
+<li><b>98% mAP50</b> validation performance</li>
+<li><b>~13.5 FPS</b> across 300 webcam frames</li>
+<li><b>5</b> supported food categories</li>
+<li><b>96%</b> original CNN test accuracy</li>
+</ul>
+
+<p>Ran a five-month pilot with six participants, including a visually impaired participant who used text-to-speech nutritional feedback.</p>
+
+<a href="https://github.com/aidenzhangg/computer-vision-food-health-checker">View Source Code</a>
+
+</td>
+<td width="50%" valign="top">
+
+<h4>Drone Behaviour Tree Telemetry</h4>
+
+<sub><b>ROS 2 · MAVLink · MAVROS · ArduPilot</b></sub>
+
+<p>Developed a telemetry system for WARG that communicates autonomous drone behaviour states to ground operators.</p>
+
+<p>The system reads live ROS 2 behaviour-tree snapshots, maps behaviours to compact identifiers, and transmits the active state through MAVLink STATUSTEXT messages.</p>
+
+<p>Designed to provide autonomy visibility even when LTE connectivity is unavailable, while minimizing communication overhead.</p>
+
+<b>Technical highlights</b>
+
+<ul>
+<li>Compact messages targeting <b>50 bytes or less</b></li>
+<li>Event-driven state updates</li>
+<li><b>30-second</b> periodic retransmission</li>
+<li>Automated behaviour-to-ID mapping</li>
+<li>Parent-child behaviour tracking</li>
+<li>Validated <b>4 autonomy states</b> through Docker, ArduPilot SITL, MAVROS, and Mission Planner</li>
+</ul>
+
+<a href="https://github.com/UWARG/autonomy-monorepo/pull/218">View PR #218</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h4>Drone Emergency ABORT System</h4>
+
+<sub><b>Flight Safety · ROS 2 · Behaviour Trees</b></sub>
+
+<p>Developed an emergency flight-safety mechanism for WARG's autonomous drone system.</p>
+
+<p>Implemented ABORT handling within a ROS 2 behaviour-tree architecture, allowing a safety command to interrupt the current mission and trigger an immediate landing through MAVROS.</p>
+
+<p>The system prioritizes emergency commands over normal autonomous behaviour to support predictable responses during unsafe flight conditions.</p>
+
+<b>Technical highlights</b>
+
+<ul>
+<li>Emergency behaviour-tree interruption</li>
+<li>Immediate landing through MAVROS</li>
+<li>ROS 2 and py_trees integration</li>
+<li>Safety-prioritized mission execution</li>
+</ul>
+
+<a href="https://github.com/UWARG/autonomy-monorepo/pull/180">View PR #180</a>
+
+</td>
+<td width="50%" valign="top">
+
+<h4>
+  <a href="https://github.com/aidenzhangg/autonomous-robot-navigation">Autonomous Robot Navigation &amp; LiDAR Mapping</a>
+</h4>
+
+<sub><b>C++ · ROS 2 · LiDAR · Path Planning</b></sub>
+
+<p>Built a four-node autonomous navigation system combining LiDAR perception, occupancy mapping, route planning, and motion control.</p>
+
+<p>The system processes LiDAR measurements, generates obstacle-aware occupancy grids, computes routes using A*, and follows paths through a Pure Pursuit controller.</p>
+
+<b>Technical highlights</b>
+
+<ul>
+<li><b>100 × 100 m</b> occupancy grid</li>
+<li><b>0.1 m</b> mapping resolution</li>
+<li><b>0.65 m</b> obstacle inflation</li>
+<li><b>8-direction A*</b> path planning</li>
+<li><b>10 Hz</b> Pure Pursuit controller</li>
+<li>Odometry integration and ROS 2 communication</li>
+</ul>
+
+<a href="https://github.com/aidenzhangg/autonomous-robot-navigation">View Source Code</a>
+
+</td>
+</tr>
+</table>
