@@ -15,7 +15,7 @@
 
 ---
 
-<h3>01 / Engineering Design Teams</h3>
+<h3>Engineering Design Teams</h3>
 
 <table>
 <tr>
@@ -86,7 +86,7 @@
 ---
 
 
-<h3>02 / Currently Building</h3>
+<h3>Currently Building</h3>
 
 <table>
 <tr>
@@ -133,7 +133,7 @@
 
 ---
 
-<h3>03 / Selected Projects</h3>
+<h3>Projects</h3>
 
 <table>
 <tr>
