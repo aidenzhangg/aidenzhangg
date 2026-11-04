@@ -89,48 +89,34 @@
 
 <table>
 <tr>
-<td valign="top">
+<td width="50%" valign="top">
 
 <h4>
   <a href="https://github.com/aidenzhangg/recall">Recall — AI Study Assistant</a>
 </h4>
 
-<sub><b>Chrome Extension · Full-Stack Development · Machine Learning</b></sub>
+<sub>Chrome Extension · Full-Stack · Machine Learning</sub>
 
-<p>Building an AI-powered study assistant that transforms lecture notes, course material, and past exams into personalized learning experiences. The goal is to help students actively recall information, identify weak areas, and improve how they study.</p>
+<p>I'm building Recall to make studying more active and personalized. It's a Chrome extension that turns lecture notes and course material into practice questions, helping students figure out what they actually understand instead of just rereading notes.</p>
 
-<b>What I've built</b>
+<p>So far, I've built a Chrome side panel that generates fill-in-the-blank quizzes from pasted or uploaded notes. It includes optional hints that guide you toward an answer, retries for missed questions, and a Java Spring Boot backend with PostgreSQL to save quizzes and attempts between sessions.</p>
 
-<ul>
-<li><b>Interactive Quizzes:</b> Generates fill-in-the-blank questions from uploaded or pasted notes directly inside a Chrome side panel.</li>
-<li><b>Learning Hints:</b> Provides optional hints that guide students toward an answer rather than immediately revealing it.</li>
-<li><b>Progress Tracking:</b> Saves quizzes, questions, and attempts through a Java 21 Spring Boot API with PostgreSQL persistence.</li>
-<li><b>Question Retries:</b> Allows students to revisit missed questions and reinforce concepts they struggled with.</li>
-</ul>
+<p>I'm now working on training a computer vision model using labelled webcam data to recognize when someone is focused or distracted while studying. I'm also developing adaptive quizzes that generate more questions around topics you keep getting wrong, flashcards, practice tests based on uploaded past exams, and relevant YouTube recommendations for concepts that need more explanation.</p>
 
-<b>What I'm developing</b>
-
-<ul>
-<li><b>ML Focus Detection:</b> Training a computer vision model using labelled webcam data to distinguish focused and distracted study behaviour.</li>
-<li><b>Adaptive Question Generation:</b> Identifying frequently missed concepts and generating targeted questions to reinforce understanding.</li>
-<li><b>Flashcards &amp; Practice Exams:</b> Transforming uploaded course material and previous tests into flashcards and similar practice questions.</li>
-<li><b>Resource Recommendations:</b> Finding relevant YouTube explanations based on topics students struggle with.</li>
-</ul>
-
-<a href="https://github.com/aidenzhangg/recall"><b>View Recall Repository</b></a>
+<a href="https://github.com/aidenzhangg/recall">View Repository</a>
 
 </td>
-</tr>
-<tr>
-<td valign="top">
+<td width="50%" valign="top">
 
 <h4>Phone-to-PC Photo Sharing</h4>
 
-<sub><b>Cross-Device Development · Windows Integration</b></sub>
+<sub>Cross-Device Development · Windows</sub>
 
-<p>Exploring a lightweight way to transfer photos directly from a phone to a Windows laptop.</p>
+<p>I'm also developing a way to transfer photos directly from a phone to a Windows laptop without having to email them, connect a cable, or upload them manually to cloud storage.</p>
 
-<p>The goal is to take a picture, share it from the phone, and have it appear on the computer without manually emailing files, connecting cables, or uploading them to cloud storage.</p>
+<p>The idea came from wanting a faster way to move pictures between devices while working or studying. I'm exploring a workflow where you can take a picture on your phone, tap Share, and have it appear directly on your laptop, ready to use.</p>
+
+<p>I'm currently working through the device communication and transfer workflow, with the goal of making the process feel as simple as sharing a photo within the same device.</p>
 
 </td>
 </tr>
