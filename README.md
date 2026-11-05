@@ -41,14 +41,14 @@
 
 <p>
   <b>Behaviour Tree Telemetry</b>
-  <a href="https://github.com/UWARG/autonomy-monorepo/pull/218">[PR #218]</a>
+  <a href="https://github.com/UWARG/autonomy-monorepo/pull/180">[PR #180]</a>
 </p>
 
 <p>Built a ROS 2 telemetry system that converts active behaviour-tree states into compact MAVLink STATUSTEXT messages. Supports event-driven updates and periodic retransmission so ground operators can monitor drone decisions without LTE connectivity.</p>
 
 <p>
   <b>Emergency ABORT System</b>
-  <a href="https://github.com/UWARG/autonomy-monorepo/pull/180">[PR #180]</a>
+  <a href="https://github.com/UWARG/autonomy-monorepo/pull/218">[PR #218]</a>
 </p>
 
 <p>Implemented emergency handling in the autonomy behaviour tree, allowing an ABORT command to interrupt the active mission and initiate an immediate landing through MAVROS.</p>
