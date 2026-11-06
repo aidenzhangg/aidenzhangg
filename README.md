@@ -145,7 +145,7 @@
   <a href="https://github.com/aidenzhangg/computer-vision-food-health-checker">Food Recognition &amp; Nutritional Analysis</a>
 </h4>
 
-<sub><b>Computer Vision · Deep Learning · YOLO11</b></sub>
+<sub><b>Python · PyTorch · OpenCV · YOLO11</b></sub>
 
 <p>A computer vision application that identifies food items in real time and provides nutritional feedback.</p>
 
