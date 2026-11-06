@@ -171,7 +171,7 @@
 
 <h4>Drone Behaviour Tree Telemetry</h4>
 
-<sub><b>ROS 2 · MAVLink · MAVROS · ArduPilot</b></sub>
+<sub><b>ROS 2 · MAVLink · MAVROS · ArduPilot SITL</b></sub>
 
 <p>Developed a telemetry system for WARG that communicates autonomous drone behaviour states to ground operators.</p>
 
