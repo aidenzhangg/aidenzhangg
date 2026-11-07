@@ -108,7 +108,7 @@ Building a Chrome extension that helps students learn from their own course mate
 
 <br/>
 
-<sub>In development · Focus detection is exploratory and not yet implemented.</sub>
+<sub>In development</sub>
 
 </td>
 <td width="50%" valign="top">
