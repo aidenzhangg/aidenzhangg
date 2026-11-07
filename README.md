@@ -87,50 +87,53 @@
 
 ---
 
-
-<h3>Currently Building</h3>
+## Currently Building
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top">
 
-<h4>
-  <a href="https://github.com/aidenzhangg/recall">Recall — AI Study Assistant</a>
-</h4>
+### [Recall — AI Study Assistant](YOUR_RECALL_REPO_URL)
 
 <sub>Java · Spring Boot · React · TypeScript · PostgreSQL · ML</sub>
 
-<p>Making a Chrome extension that helps students study smarter by turning their own course material into personalized practice.</p>
+<br/><br/>
 
-<ul>
-  <li>Built a Chrome side panel that turns uploaded notes into interactive quizzes, with hints, retries, and saved progress.</li>
-  <li>Training a computer vision model on labelled webcam data to recognize distracted behaviour during study sessions.</li>
-  <li>Working on adaptive quizzes that revisit weak topics and generate new questions based on previous mistakes.</li>
-  <li>Adding flashcards, practice tests based on uploaded past exams, and YouTube recommendations for difficult concepts.</li>
-</ul>
+Building a Chrome extension that helps students learn from their own course materials through personalized practice, adaptive learning, and study tools.
 
-<p><sub>In development · <a href="https://github.com/aidenzhangg/recall">Source code</a></sub></p>
+- Built a Chrome side panel with interactive quizzes, hints, retries, and saved progress.
+- Developing adaptive quizzes that revisit weak topics and generate targeted practice questions based on previous mistakes.
+- Exploring **OpenCV and gaze estimation** to identify possible distractions and offer gentle check-ins or break reminders.
+- Planning flashcards, practice tests from uploaded past exams, and learning-resource recommendations.
+
+<br/>
+
+<sub>In development · Focus detection is exploratory and not yet implemented.</sub>
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
-<h4>Phone-to-PC Photo Sharing</h4>
+### Recall Connect — Phone-to-PC Sharing
 
-<sub>Windows · Cross-Device Communication</sub>
+<sub>Windows · Cross-Device Communication · File Transfer</sub>
 
-<p>Building a faster way to move photos from my phone to my Windows laptop without emailing files or manually uploading them.</p>
+<br/><br/>
 
-<ul>
-  <li>Working on a workflow that lets me take a picture and send it straight from my phone's Share menu.</li>
-  <li>Exploring direct device communication so photos can transfer without an intermediate cloud upload.</li>
-  <li>Designing the Windows side to receive photos and make them immediately accessible for studying and other tasks.</li>
-</ul>
+Building a companion tool for Recall that makes it easier to transfer handwritten notes, textbook pages, and lecture photos from a phone directly to a Windows laptop.
 
-<p><sub>In development</sub></p>
+- Exploring a workflow to send photos directly from a phone's Share menu to a Windows laptop.
+- Investigating direct device-to-device transfer without requiring manual cloud uploads.
+- Planning integration with Recall so transferred photos can be imported as study materials for personalized quizzes and flashcards.
+
+<br/>
+
+<sub>In development · Device transfer and Recall integration are planned.</sub>
 
 </td>
 </tr>
 </table>
+
+
 
 
 ---
