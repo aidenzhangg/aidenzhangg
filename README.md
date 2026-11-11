@@ -29,29 +29,40 @@
 
 <p>Building software for autonomous drone operations, including behaviour-tree telemetry, emergency flight safety, and multi-agent coordination.</p>
 
-<b>Currently working on</b>
+<b>WARG Autonomy contributions</b>
 
 <p>
-  <a href="https://github.com/UWARG/autonomy-monorepo/issues/220"><b>Deconfliction &amp; Separation Assurance #220</b></a>
+  <b>Multi-Drone Deconfliction</b>
+  <a href="https://github.com/UWARG/autonomy-monorepo/pull/251">[PR #251]</a>
 </p>
 
-<p>Developing a geometry-based conflict detection module for multiple autonomous drones. The system examines planned flight segments, identifies intersecting trajectories, and reports which drones and segments are involved in potential conflicts.</p>
+<p>Built a conflict-detection module that checks every drone's planned flight path against every other drone's and reports any place two of them come closer than a minimum separation distance. It catches crossings, near misses, overlaps along shared region boundaries, and drones hovering in another's path. Each conflict reports which drones and flight legs are involved, the closest point on each leg, and the distance between them.</p>
 
-<b>Previous contributions</b>
+<ul>
+  <li>Two implementations: brute force, O(S²), and sweep and prune, O(S log S + C), which skips drones that are far apart</li>
+  <li>Cross-checked on 200 random multi-drone scenarios, where both implementations must find the same conflicts</li>
+  <li>19 unit tests covering crossing, touching, collinear overlap and near-miss cases</li>
+  <li>Added a shared <code>PathConflict</code> type so other modules can act on the results</li>
+</ul>
 
 <p>
   <b>Behaviour Tree Telemetry</b>
   <a href="https://github.com/UWARG/autonomy-monorepo/pull/180">[PR #180]</a>
 </p>
 
-<p>Built a ROS 2 telemetry system that converts active behaviour-tree states into compact MAVLink STATUSTEXT messages. Supports event-driven updates and periodic retransmission so ground operators can monitor drone decisions without LTE connectivity.</p>
+<p>Built a ROS 2 node that reports which step of the drone's behaviour tree is running over MAVLink STATUSTEXT, the same radio link the pilots use. The tree is numbered and shared before takeoff, so in flight only the running node's number is sent, and a ground tool redraws the whole tree from it. The team can follow the mission without an LTE connection.</p>
+
+<ul>
+  <li>Sends a few characters per update instead of the full tree</li>
+  <li>Sends on every state change and repeats periodically for ground stations that connect late</li>
+</ul>
 
 <p>
   <b>Emergency ABORT System</b>
   <a href="https://github.com/UWARG/autonomy-monorepo/pull/218">[PR #218]</a>
 </p>
 
-<p>Implemented emergency handling in the autonomy behaviour tree, allowing an ABORT command to interrupt the active mission and initiate an immediate landing through MAVROS.</p>
+<p>Added a safety check that runs before the mission on every tick of the behaviour tree. When the ground station sends ABORT, it stops the active mission and commands an immediate landing through MAVROS, even while the mission is paused by the kill switch.</p>
 
 </td>
 <td width="50%" valign="top">
