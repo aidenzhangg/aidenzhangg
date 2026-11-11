@@ -33,7 +33,7 @@
 
 <p>
   <b>Multi-Drone Deconfliction</b>
-  <a href="https://github.com/UWARG/autonomy-monorepo/pull/251">[PR #251]</a>
+  <a href="https://github.com/UWARG/autonomy-monorepo/pull/251">[PR #251]</a> (in review)
 </p>
 
 <p>Built a conflict-detection module that checks every drone's planned flight path against every other drone's and reports any place two of them come closer than a minimum separation distance. It catches crossings, near misses, overlaps along shared region boundaries, and drones hovering in another's path. Each conflict reports which drones and flight legs are involved, the closest point on each leg, and the distance between them.</p>
@@ -50,11 +50,12 @@
   <a href="https://github.com/UWARG/autonomy-monorepo/pull/180">[PR #180]</a>
 </p>
 
-<p>Built a ROS 2 node that reports which step of the drone's behaviour tree is running over MAVLink STATUSTEXT, the same radio link the pilots use. The tree is numbered and shared before takeoff, so in flight only the running node's number is sent, and a ground tool redraws the whole tree from it. The team can follow the mission without an LTE connection.</p>
+<p>Built a ROS 2 node that reports which step of the drone's behaviour tree is running over MAVLink STATUSTEXT, the same radio link the pilots use. The tree is numbered and saved to a file before takeoff, so in flight only the running node's number is sent, and a pymavlink ground tool redraws the whole tree from it. The team can follow the mission without an LTE connection.</p>
 
 <ul>
-  <li>Sends a few characters per update instead of the full tree</li>
-  <li>Sends on every state change and repeats periodically for ground stations that connect late</li>
+  <li>Cut each update from 29 messages (one per node of the mission tree) to a single 3–4 character message, such as <code>S,17</code></li>
+  <li>Reads the tree's state every 0.5 s, sends on every change, and repeats every 30 s for ground stations that connect late</li>
+  <li>Retries every 2 s until the mission engine is up, so startup order doesn't matter</li>
 </ul>
 
 <p>
@@ -63,6 +64,12 @@
 </p>
 
 <p>Added a safety check that runs before the mission on every tick of the behaviour tree. When the ground station sends ABORT, it stops the active mission and commands an immediate landing through MAVROS, even while the mission is paused by the kill switch.</p>
+
+<ul>
+  <li>Checked at the start of every 500 ms tick, so the mission stops within one tick of the command arriving</li>
+  <li>Retries the land command until the flight controller accepts it, and never resumes the mission afterward</li>
+  <li>Tested in Docker: ABORT stopped the mission and handed control to the landing behaviour</li>
+</ul>
 
 </td>
 <td width="50%" valign="top">
