@@ -3,7 +3,7 @@
   <img src="header.svg" alt="Aiden Zhang | Computer Engineering at the University of Waterloo" width="100%" />
 </p>
 
-<h3>Hey, I'm Aiden.</h3>
+<h3>Hi I'm Aiden</h3>
 
 <p>I'm a 1A Computer Engineering student at the University of Waterloo. I like building things that connect software with the physical world, especially robotics, computer vision, and tools people actually use.</p>
 
