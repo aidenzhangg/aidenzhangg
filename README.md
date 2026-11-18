@@ -35,9 +35,6 @@ Developing autonomous drone software focused on flight safety, telemetry, and mu
 ### WATonomous
 **EVE Autonomous Vehicle · Perception** · `C++` · `ROS 2`
 
-- **[Multi-Object Tracking · Issue #583](https://github.com/WATonomous/wato_monorepo/issues/583)**  
-  Investigating ByteTrack and alternative tracking algorithms for 3D object detection.
-
 - **[Autonomous Robot Navigation](https://github.com/aidenzhangg/autonomous-robot-navigation)**  
   Built a four-node navigation pipeline combining LiDAR mapping, A* pathfinding, and a 10 Hz Pure Pursuit controller.
 
