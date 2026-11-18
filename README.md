@@ -47,9 +47,11 @@ Developing autonomous drone software focused on flight safety, telemetry, and mu
 
 An AI-powered Chrome extension that helps students learn through personalized practice and focus monitoring.
 
-- Built AI chat, adaptive quizzes, flashcards, and practice exams generated from course materials.
-- Integrated MediaPipe-based attention estimation, website blocking, and study-session insights.
-- Developed QR-code phone pairing and photo uploads to import study materials directly into Recall.
+- Built a full-stack Chrome extension that turns notes and PDFs into 4 question types, flashcards and practice papers, backed by 96 automated tests (60 Node, 36 JUnit), using React, TypeScript, Supabase and a Java Spring Boot backend
+- Kept the AI API key off the client entirely and capped usage at 200 requests per user per day via a Supabase Edge Function
+- Secured all 4 database operations with PostgreSQL row-level security, parameterized SQL and 210,000-iteration PBKDF2 hashing
+- Classified 4 attention states from 478 MediaPipe face landmarks using 0.2 yaw / 0.24 pitch thresholds and blink scores
+
 
 ### [Food Recognition & Nutritional Analysis](https://github.com/aidenzhangg/computer-vision-food-health-checker)
 `Python` · `PyTorch` · `YOLO11` · `OpenCV`
