@@ -43,7 +43,7 @@ Developing autonomous drone software focused on flight safety, telemetry, and mu
 ## Projects
 
 ### [Recall — AI Study Assistant](https://github.com/aidenzhangg/recall) (Currently Building)
-`React` · `TypeScript` · `Java` · `Spring Boot` · `Supabase` · `GCP`
+`React` · `TypeScript` · `Java` · `Spring Boot` · `Supabase` 
 
 An AI-powered Chrome extension that helps students learn through personalized practice and focus monitoring.
 
