@@ -32,12 +32,6 @@ Developing autonomous drone software focused on flight safety, telemetry, and mu
 - **[Emergency ABORT System · PR #218](https://github.com/UWARG/autonomy-monorepo/pull/218)**  
   Implemented safety-prioritized mission interruption and emergency landing through MAVROS.
 
-### WATonomous
-**EVE Autonomous Vehicle · Perception** · `C++` · `ROS 2`
-
-- **[Autonomous Robot Navigation](https://github.com/aidenzhangg/autonomous-robot-navigation)**  
-  Built a four-node navigation pipeline combining LiDAR mapping, A* pathfinding, and a 10 Hz Pure Pursuit controller.
-
 ---
 
 ## Projects
