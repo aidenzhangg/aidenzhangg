@@ -31,7 +31,7 @@ Developing autonomous drone software focused on flight safety, telemetry, and mu
 
 - **[Emergency ABORT System · PR #218](https://github.com/UWARG/autonomy-monorepo/pull/218)**  
   Implemented safety-prioritized mission interruption and emergency landing through MAVROS.
-
+ 
 ---
 
 ## Projects
